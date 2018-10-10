@@ -38,7 +38,7 @@ fn app() -> App<'static, 'static> {
     App::new("mathematica-notebook-filter")
         .author(crate_authors!())
         .version(crate_version!())
-        .max_term_width(100)
+        .max_term_width(80)
         .setting(AppSettings::UnifiedHelpMessage)
         .about("mathematica-notebook-filter parses Mathematica notebook files and strips them of superfluous information so that they can be committed into version control systems more easily.
 
